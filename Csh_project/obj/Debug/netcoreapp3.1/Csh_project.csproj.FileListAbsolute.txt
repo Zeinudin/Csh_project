@@ -167,3 +167,11 @@ C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\R
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Menu\Default.cshtml.g.cs
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_UserPartial.cshtml.g.cs
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\bin\Debug\netcoreapp3.1\Csh_project.DAL.dll
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\bin\Debug\netcoreapp3.1\Csh_project.DAL.pdb
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs

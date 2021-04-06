@@ -1,0 +1,9 @@
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.DAL\bin\Debug\netstandard2.1\Csh_project.DAL.deps.json
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.DAL\bin\Debug\netstandard2.1\Csh_project.DAL.dll
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.DAL\obj\Debug\netstandard2.1\Csh_project.DAL.csprojAssemblyReference.cache
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.DAL\obj\Debug\netstandard2.1\Csh_project.DAL.AssemblyInfoInputs.cache
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.DAL\obj\Debug\netstandard2.1\Csh_project.DAL.AssemblyInfo.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.DAL\bin\Debug\netstandard2.1\Csh_project.DAL.pdb
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.DAL\obj\Debug\netstandard2.1\Csh_project.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.DAL\obj\Debug\netstandard2.1\Csh_project.DAL.dll
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.DAL\obj\Debug\netstandard2.1\Csh_project.DAL.pdb
