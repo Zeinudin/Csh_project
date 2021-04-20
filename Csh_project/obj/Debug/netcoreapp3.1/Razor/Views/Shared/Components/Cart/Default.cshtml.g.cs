@@ -26,8 +26,15 @@ using Csh_project.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\Views\_ViewImports.cshtml"
+using Csh_project.DAL.Entities;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d43cc102707fe29f48109c39c2752adfb6f1581c", @"/Views/Shared/Components/Cart/Default.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c55e9a611f88ac9c72c6d3456c0449e353f2645", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4062746ca1d9f633ee71686e0ab21dd59e3e7da1", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_Components_Cart_Default : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Cart", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -58,7 +65,7 @@ using Csh_project.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d43cc102707fe29f48109c39c2752adfb6f1581c4128", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d43cc102707fe29f48109c39c2752adfb6f1581c4322", async() => {
                 WriteLiteral("\r\n\r\n        00,0 руб.(0)\r\n        <i class=\"fa fa-shopping-cart nav-color\"></i>\r\n    ");
             }
             );

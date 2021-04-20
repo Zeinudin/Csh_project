@@ -7,6 +7,6 @@ namespace Csh_project.DAL.Entities
 {
     public class ApplicationUser : IdentityUser
     {
-
+        public byte[] AvatarImage { get; set; }
     }
 }

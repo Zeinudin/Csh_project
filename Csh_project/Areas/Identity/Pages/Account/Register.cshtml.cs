@@ -15,12 +15,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 using Csh_project.DAL.Entities;
+using Microsoft.AspNetCore.Http;
 
 namespace Csh_project.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class RegisterModel : PageModel
     {
+       
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
@@ -38,6 +40,7 @@ namespace Csh_project.Areas.Identity.Pages.Account
 
         [BindProperty]
         public InputModel Input { get; set; }
+        
 
         public string ReturnUrl { get; set; }
 
@@ -45,6 +48,7 @@ namespace Csh_project.Areas.Identity.Pages.Account
 
         public class InputModel
         {
+            public IFormFile Avatar { get; set; }
             [Required]
             [EmailAddress]
             [Display(Name = "Email")]
@@ -75,6 +79,18 @@ namespace Csh_project.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser { UserName = Input.Email, Email = Input.Email };
+                if (Input.Avatar != null)
+                {
+                    user.AvatarImage = new byte[(int)Input.Avatar.Length];
+                    await Input.Avatar
+
+                    .OpenReadStream()
+                    .ReadAsync(
+                    user.AvatarImage,
+                    0,
+                    (int)Input.Avatar.Length);
+
+                }
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {

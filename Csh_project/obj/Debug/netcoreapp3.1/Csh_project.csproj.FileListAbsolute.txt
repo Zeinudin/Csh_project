@@ -175,3 +175,5 @@ C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\R
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Views\Product\_ListItemPartial.cshtml.g.cs
