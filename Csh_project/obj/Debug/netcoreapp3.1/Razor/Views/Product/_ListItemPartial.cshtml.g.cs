@@ -34,7 +34,7 @@ using Csh_project.DAL.Entities;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0e42cd23fdaf92068243a3a29e86741e6aa8849b", @"/Views/Product/_ListItemPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4062746ca1d9f633ee71686e0ab21dd59e3e7da1", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9241e80ab16ec0da1e642353e42b86e42d16ae16", @"/Views/_ViewImports.cshtml")]
     public class Views_Product__ListItemPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Dish>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("alt", new global::Microsoft.AspNetCore.Html.HtmlString("NoImage"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.SingleQuotes);

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Csh_project.DAL.Entities;
+using Csh_project.Extensions;
 using Csh_project.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,6 +20,9 @@ namespace Csh_project.Controllers
             _pageSize = 3;
             SetupData();
         }
+
+        [Route("Catalog")]
+        [Route("Catalog/Page_{pageNo}")]
         public IActionResult Index(int? group, int pageNo = 1)
         {
             var dishesFiltered = _dishes.Where(d => !group.HasValue || d.DishGroupId == group.Value);
@@ -27,7 +31,15 @@ namespace Csh_project.Controllers
             // Получить id текущей группы и поместить в TempData
             ViewData["CurrentGroup"] = group ?? 0;
 
-            return View(ListViewModel<Dish>.GetModel(dishesFiltered,pageNo, _pageSize));
+            //return View(ListViewModel<Dish>.GetModel(dishesFiltered,pageNo, _pageSize));
+
+            var model = ListViewModel<Dish>.GetModel(dishesFiltered, pageNo, _pageSize);
+            if (Request.IsAjaxRequest())
+                return PartialView("_listpartial", model);
+            else
+                return View(model);
+
+
         }
         /// <summary>
         /// Инициализация списков
@@ -62,6 +74,7 @@ namespace Csh_project.Controllers
                 Calories =180, DishGroupId=5, Image="Компот.jpg" }
                 };
         }
+
     }
 
 }

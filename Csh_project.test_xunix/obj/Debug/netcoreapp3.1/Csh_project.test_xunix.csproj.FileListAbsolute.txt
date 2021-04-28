@@ -231,6 +231,8 @@ C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\bin\Debug\netc
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\obj\Debug\netcoreapp3.1\Csh_project.test_xunix.csproj.CoreCompileInputs.cache
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\obj\Debug\netcoreapp3.1\Csh_project.test_xunix.dll
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\obj\Debug\netcoreapp3.1\Csh_project.test_xunix.pdb
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\obj\Debug\netcoreapp3.1\Csh_project.test_xunix.csproj.CoreCompileInputs.cache
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.test_xunix\bin\Debug\netcoreapp3.1\Moq.dll

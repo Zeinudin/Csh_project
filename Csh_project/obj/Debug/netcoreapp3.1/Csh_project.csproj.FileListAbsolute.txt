@@ -177,3 +177,8 @@ C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\R
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Views\Product\_ListItemPartial.cshtml.g.cs
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project\obj\Debug\netcoreapp3.1\Razor\Views\Product\_ListPartial.cshtml.g.cs
