@@ -6,6 +6,9 @@ using Csh_project.DAL.Entities;
 using Csh_project.Extensions;
 using Csh_project.Models;
 using Microsoft.AspNetCore.Mvc;
+using Csh_project.DAL.Data;
+using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Csh_project.Controllers
 {
@@ -13,23 +16,30 @@ namespace Csh_project.Controllers
     {
         public List<Dish> _dishes;
         List<DishGroup> _dishGroups;
+        ApplicationDbContext _context;
+       // private ILogger _logger;
 
         int _pageSize;
-        public ProductController()
+        public ProductController(ApplicationDbContext context)
+            /*ILogger<ProductController> logger*/
         {
             _pageSize = 3;
-            SetupData();
+            _context = context;
+           // _logger = logger;
         }
 
         [Route("Catalog")]
         [Route("Catalog/Page_{pageNo}")]
-        public IActionResult Index(int? group, int pageNo = 1)
+        public IActionResult Index(int? group, int pageNo)
         {
-            var dishesFiltered = _dishes.Where(d => !group.HasValue || d.DishGroupId == group.Value);
+            var groupMame = group.HasValue? _context.DishGroups.Find(group.Value)?.GroupName: "all groups";
+            var dishesFiltered = _context.Dishes.Where(d => !group.HasValue || d.DishGroupId == group.Value);
+           // _logger.LogInformation($"info: group={group}, page={pageNo}");
             // Поместить список групп во ViewData
-            ViewData["Groups"] = _dishGroups;
+            ViewData["Groups"] = _context.DishGroups;
             // Получить id текущей группы и поместить в TempData
             ViewData["CurrentGroup"] = group ?? 0;
+            ViewData["DishGroupId"] = new SelectList(_context.DishGroups, "DishGroupId", "GroupName");
 
             //return View(ListViewModel<Dish>.GetModel(dishesFiltered,pageNo, _pageSize));
 

@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Csh_project",
+    "\\Csh_project.DAL",
+    "\\Csh_project.test_xunix"
   ],
+  "SelectedNode": "\\XUnitTestProject1",
   "PreviewInSolutionExplorer": false
 }

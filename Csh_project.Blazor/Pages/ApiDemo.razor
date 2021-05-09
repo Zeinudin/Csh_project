@@ -1,0 +1,23 @@
+﻿@using Csh_project.Blazor.Data
+@using Csh_project.Blazor.Components
+@using Csh_project.Blazor.Pages
+@using Csh_project.Blazor.Shared
+
+@page "/apidemo"
+@inject IHttpClientFactory clientFactory
+@inject HttpClient client
+<div class="container">
+    <DishesList @bind-Dishes="dishes"></DishesList>
+</div>
+@code {
+    [Parameter]
+    public IEnumerable<ListViewModel> dishes { get; set; }
+
+    string apiBaseAddress = "https://localhost:44382/Api/Dishes";
+    protected override async Task OnInitializedAsync()
+    {
+        dishes =
+        await
+        client.GetFromJsonAsync<IEnumerable<ListViewModel>>(apiBaseAddress);
+    }
+}
