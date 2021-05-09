@@ -360,6 +360,6 @@ C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstand
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstandard2.1\RazorDeclaration\Components\DishesList.razor.g.cs
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstandard2.1\Razor\Components\DishDetails.razor.g.cs
 C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstandard2.1\Razor\Components\DishesList.razor.g.cs
-C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstandard2.1\integrity\lzHMRmgxUVup8yrMTEcJMuEmSoLiI3rsGdANrQBt-Z8=.hash
-C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstandard2.1\integrity\wpYIw4sYh7Ajaoa6T4owwFV5N2HYxuVI2gw6Ca9Jzfc=.hash
-C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstandard2.1\integrity\6Ih37-UXZUBcv2EBjwbAxzWLK7EMLMJCyjzBLuvlpEk=.hash
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstandard2.1\integrity\JQsHsUhtS-FssV0U1tN51NnJU8Sq1MVcoFjjqgesxRc=.hash
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstandard2.1\integrity\9wlTGysXjdOv5rIYXAxAOk3UF7oj64RCefxRQQsmr6I=.hash
+C:\Users\Zeinudin\source\repos\Csh_project\Csh_project.Blazor\obj\Debug\netstandard2.1\integrity\40uTeu-NSiBqU9GR6a5IGeUng8gwztW8vL4gfa1MhXI=.hash

@@ -4,16 +4,25 @@
 @using Csh_project.Blazor.Shared
 
 @page "/apidemo"
-@inject IHttpClientFactory clientFactory
 @inject HttpClient client
 <div class="container">
-    <DishesList @bind-Dishes="dishes"></DishesList>
+    <DishesList @bind-Dishes="dishes"
+                SelectedObjectChanged="ShowDetails"></DishesList>
+    <DishDetails @bind-Dish="SelectedDish"></DishDetails>
 </div>
 @code {
     [Parameter]
     public IEnumerable<ListViewModel> dishes { get; set; }
+    [Parameter]
+    public DetailsViewModel SelectedDish { get; set; }
+    private async Task ShowDetails(int id)
+    {
+        SelectedDish =
+        await
+        client.GetFromJsonAsync<DetailsViewModel>(apiBaseAddress + $"/{id}");
+    }
 
-    string apiBaseAddress = "https://localhost:44382/Api/Dishes";
+    string apiBaseAddress = "https://localhost:44375/Api/Dishes";
     protected override async Task OnInitializedAsync()
     {
         dishes =

@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.Http;
 using Csh_project.Models;
 using Microsoft.Extensions.Logging;
 using Csh_project.Extensions;
+using Microsoft.Net.Http.Headers;
 
 namespace Csh_project
 {
@@ -91,6 +92,10 @@ namespace Csh_project
                     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                     app.UseHsts();
                 }
+                app.UseCors(policy =>
+                policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .WithHeaders(HeaderNames.ContentType));
                 app.UseHttpsRedirection();
                 app.UseStaticFiles();
 
